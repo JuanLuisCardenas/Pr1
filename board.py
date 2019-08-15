@@ -18,6 +18,8 @@ if __name__ == "__main__":
     player1.usIa = tester1
     player2.usIa = tester2
     while((player1.usIa.hp > 0) and (player2.usIa.hp > 0)):
-        print("Start\n A = Attak")
+        print("Start\n A = Attak, B = Break, G = Guard\n")
+        print("Currently not working.\n so the Winner is... ")
+
         
         
