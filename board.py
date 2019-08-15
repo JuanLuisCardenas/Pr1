@@ -9,8 +9,8 @@ class Board(object):
         self.end = end
     
 if __name__ == "__main__":
-    player1 = Player("", "")
-    player2 = Player("", "")
+    player1 = Player("", "", "")
+    player2 = Player("", "", "")
     player1.name = input("Ingrese nombre de Jugador1 ")
     player2.name = input("Ingrese nombre de Jugador2 ")
     tester1 = Tester("Dark", "Flawrous", 620, 234, 142)
